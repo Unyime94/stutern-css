@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: Merriweather, serif;
+}
+
+.white {
+    color: #ffff;
+}
+
+.aqua {
+    color: #66bfbf;
+}
+
+.deep-aqua {
+    color: #11999e;
+}
+
+h1 {
+    font-family: Sacramento, cursive;
+    font-size: 80px;
+}
+
+h2,
+h3 {
+    font-family: Montserrat, sans-serif;
+}
+
+img {
+    margin-top: 20px;
+}
+
+.top-container {
+    background-color: #66bfbf;
+    padding-top: 50px;
+    position: relative;
+}
+
+.top-container .about-section {
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-around;
+    line-height: 2rem;
+}
+
+.middle-container {
+    padding: 30px 0;
+    line-height: 2rem;
+}
+
+.services-container {
+    padding: 50px 0;
+    line-height: 2;
+    background-color: #acdbdb;
+}
+
+.contact-container {
+    padding: 40px 0;
+    line-height: 2;
+}
+
+.gender-hobbies {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #11999e;
+    color: white;
+}
+
+#footer {
+    padding: 20px 0;
+    line-height: 2;
+    background-color: #11999e;
+}
